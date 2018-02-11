@@ -1,5 +1,5 @@
 # Vainglory Hero Counter Data
-****
+
 ## What is this
 This is a "webapp" that uses the Vainglory API to search Vainglory matches and retrieve data about hero matchups. It looks at ranked matches from patch 2.12 (which can be changed in filters.js).
 
