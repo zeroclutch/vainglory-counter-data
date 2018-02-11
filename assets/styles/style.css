@@ -1,0 +1,188 @@
+/*Heroes
+.adagio{background-image: url(heroes/adagio.png);}
+.alpha{background-image: url(heroes/alpha.png);}
+.ardan{background-image: url(heroes/ardan.png);}
+.baron{background-image: url(heroes/baron.png);}
+.blackfeather{background-image: url(heroes/blackfeather.png);}
+.catherine{background-image: url(heroes/catherine.png);}
+.celeste{background-image: url(heroes/celeste.png);}
+.flicker{background-image: url(heroes/flicker.png);}
+.fortress{background-image: url(heroes/fortress.png);}
+.glaive{background-image: url(heroes/glaive.png);}
+.gwen{background-image: url(heroes/gwen.png);}
+.idris{background-image: url(heroes/idris.png);}
+.joule{background-image: url(heroes/joule.png);}
+.kestrel{background-image: url(heroes/kestrel.png);}
+.koshka{background-image: url(heroes/koshka.png);}
+.krul{background-image: url(heroes/krul.png);}
+.lance{background-image: url(heroes/lance.png);}
+.lyra{background-image: url(heroes/lyra.png);}
+.ozo{background-image: url(heroes/ozo.png);}
+.petal{background-image: url(heroes/petal.png);}
+.phinn{background-image: url(heroes/phinn.png);}
+.reim{background-image: url(heroes/reim.png);}
+.ringo{background-image: url(heroes/ringo.png);}
+.rona{background-image: url(heroes/rona.png);}
+.samuel{background-image: url(heroes/samuel.png);}
+.saw{background-image: url(heroes/saw.png);}
+.skaarf{background-image: url(heroes/skaarf.png);}
+.skye{background-image: url(heroes/skye.png);}
+.taka{background-image: url(heroes/taka.png);}
+.vox{background-image: url(heroes/vox.png);}
+*/
+
+/*
+* {
+    font-family: "Montserrat", "Roboto", sans-serif;
+}
+*/
+
+
+h1.main-title {
+    font-size: 10vw;
+    text-align: center;
+    
+    /*-webkit-animation: 0.3s linear 0.5s fadeIn;
+    animation: 0.3s linear 0.5s fadeIn;*/
+    
+    -webkit-transition: 0.4s all;
+    transition: 0.4s all;
+}
+
+input.ign-entry {
+    font-size: 60px;
+    outline: none;
+    color: darkslategray;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-bottom: 3px #717171 solid;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    
+    height: 85px;
+    width: 750px;
+    
+    top: 50vh;
+    left: calc(50vw - 375px);
+    position: absolute; 
+    -webkit-transition: 0.4s all; 
+    transition: 0.4s all;
+}
+
+submit.ign-submit {
+    display: inline-block;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    
+    color: #fff;
+    cursor: pointer;
+    
+    background-color: #999999;
+    position: absolute;
+    top: calc(50vh + 20px);
+    left: calc(50vw + 405px);
+    
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+    
+    padding-top: 12px;
+    text-align: center;
+}
+
+submit.ign-submit:hover {
+    background-color: #383838;
+}
+
+.player-ign {
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+.main-ign {
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+#hero-statistics {
+    height: 100vh;
+    width: 100vw;
+    /*display: none;*/
+}
+
+/*
+@-webkit-keyframes fadeIn {
+    from {margin-top:-10px; opacity: 0;}
+    to {margin-top:0px; opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {margin-top:-10px;opacity: 0px;}
+    to {margin-top:0px; opacity: 1;}
+}
+*/
+
+
+#hero-data-holder {
+    margin: 0;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #f2f2f2;
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+aside {
+    background-color: white;
+    height: calc(100vh + 10px);
+    overflow-y: scroll;
+    margin-left: 5px;
+    
+}
+
+table {
+    margin-top: 20px;
+    width: calc(100% - 10px);
+}
+
+#table-content {
+    height: 100vh;
+    overflow-y: scroll;
+    visibility: hidden;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.ign-cell {
+    width: 100%;
+}
+
+#save-file {
+    visibility: hidden;
+}
+
+.entry-screen {
+    text-align: center;
+    height: 100vh;
+}
+
+.entry-screen a.button{
+    position: relative;
+    top: calc(50% - 18px);
+    
+}
+
+#progress-content {
+    height: 100vh;
+}
+
+.title {
+    margin-bottom: 0px !important; /*Bad practice, meant to overwrite Bulma.css style*/
+}

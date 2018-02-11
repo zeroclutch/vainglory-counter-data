@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Vainglory Hero Data</title>
+    <link href="assets/styles/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/styles/bulma.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="spaceless">
+    
+    <section class="entry-screen">
+        <!--h1 class="main-title">ENTER AN IGN</h1>
+        <input type="text" class="ign ign-entry" autofocus>
+        <submit class="ign ign-submit" id="ign-submit"><i class="fa fa-search"></i></submit-->
+        <a id="save-file" class="button is-primary"></a>
+        <a id="preload-file" class="button is-info"></a>
+    </section>
+
+    <section id="igns-screen"></section>
+
+    <section id="hero-data-holder" class="responsive data-holder">
+        
+        <section id="v-for-object" class="columns">
+            <aside class="menu column is-one-third">
+                <ul class="menu-list">
+                    <li class="list-item" v-for="(value, key) in outputData" v-on:click="currentHero = key"><a>{{ key }} <span class="tag is-primary" v-if="key == currentHero">SELECTED</span></a></li>
+                </ul>
+            </aside>
+            <section id="table-content" class="column is-one-half">
+                <h2 class="column title">{{ currentHero }} data</h2>
+                <span class="tag is-primary">
+                  {{ totalMatches }} matches searched
+                </span>
+                
+                <span class="tag is-info">
+                     {{ ignsDone }} igns searched
+                </span>
+                <span class="tag is-info">
+                    {{ ignsLeft }} igns queued
+                </span>
+                <table class="table column">
+                    <tr>
+                        <th>Hero Name</th>
+                        <th>Winrate</th>
+                        <th>Matches</th>
+                    </tr>
+                    <tr v-for="(value, key) in outputData[currentHero]">
+                        <td class="ign-cell">
+                            {{ key }}
+                            <span class="tag is-success" v-if="value.winrate >= 54" style="text-transform: uppercase;">LOSES TO {{ currentHero }}</span>
+                            <span class="tag is-danger"  v-if="value.winrate <= 46" style="text-transform: uppercase;">COUNTERS {{ currentHero }}</span>
+                        </td>
+                        <td>{{ value.winrate }}%</td>
+                        <td>{{ value.matches }}</td>
+                    </tr>
+                    <tr><td>All data is from 2.12 ranked matches</td></tr>
+                </table>
+            </section>
+            
+        </section>
+    </section>
+
+    
+    <!--LIBRARIES-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="external_scripts/Chart.min.js"></script>
+    <script src="external_scripts/vue.min.js"></script>
+
+    <!--API INTERFACE-->
+    <script src="assets/scripts/api_interface.js"></script>
+
+    <!--HERO DATA-->
+    <script type="text/javascript" src="example-data/blank.js"></script>
+    <script type="text/javascript" src="example-data/380kmatches.js"></script>
+    
+    <!--WEBPAGE SCRIPTS-->
+    <script src="assets/scripts/console.js"></script>
+    <script src="api-key.js"></script>
+    <script src="assets/scripts/hero-counters.js"></script>
+    <script src="assets/scripts/updateInfo.js"></script>
+    <script src="assets/scripts/managePageScenes.js"></script>
+    <script>
+        var heroPageData = new Vue({
+            el: "#v-for-object",
+            data: {
+                outputData: output,
+                currentHero: "Alpha",
+                totalMatches: 0,
+                ignsDone: 0,
+                ignsLeft: 0,
+                ignList: [],
+                strongestCounter: ""
+            },
+            methods: {}
+        });
+    </script>
+    <script></script>
+</body>
+
+</html>
