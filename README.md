@@ -4,7 +4,8 @@
 This is a "webapp" that uses the Vainglory API to search Vainglory matches and retrieve data about hero matchups. It looks at ranked matches from patch 2.12 (which can be changed in filters.js).
 
 ## Try it out
-Go to [zeroclutch.github.io/vainglory-counter-data](https://zeroclutch.github.io/vainglory-counter-data/).
+Try it at [zeroclutch.github.io/vainglory-counter-data](https://zeroclutch.github.io/vainglory-counter-data/).
+
 If you have a [Vainglory API key](https://developer.vainglorygame.com/), you can search more matches to get additional data. Open the Javascript console and enter:
 ```js
 filters.apiKey = 'Bearer YourAPIKey'
