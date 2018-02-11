@@ -1,6 +1,6 @@
 {
   "name": "vainglory-hero-counters",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Find counters for specific VG heroes",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,18 @@
   "keywords": [
     "vainglory"
   ],
-  "author": "",
-  "license": "MIT"
+  "author": "P G",
+  "license": "MIT",
+  "dependencies": {
+    "vainglory": "^1.3.8"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeroclutch/Vainglory-Counter-Data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zeroclutch/Vainglory-Counter-Data/issues"
+  },
+  "homepage": "https://github.com/zeroclutch/Vainglory-Counter-Data#readme"
 }

@@ -35,7 +35,11 @@ saveButton.addEventListener("click", function() {
     
     document.querySelector(".entry-screen").style.display = "none";
     document.querySelector("#hero-data-holder").style.display = "block";
-    loopHeroes();
+    if(filters.apiKey !== "Bearer aaa.bbb.ccc"){
+        loopHeroes();
+    } else {
+        updateWebpage();
+    }
     delayData();
 });
 
@@ -48,6 +52,10 @@ preloadButton.addEventListener("click", function() {
     
     document.querySelector(".entry-screen").style.display = "none";
     document.querySelector("#hero-data-holder").style.display = "block";
-    loopHeroes();
+    if(filters.apiKey !== "Bearer aaa.bbb.ccc"){
+        loopHeroes();
+    } else {
+        updateWebpage();
+    }
     delayData();
 });

@@ -1,6 +1,8 @@
 #Node Files
 node_modules/
+index.js
 
 #Data Files
 *.json
-
+*log
+.DS_Store

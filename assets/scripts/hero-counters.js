@@ -17,6 +17,25 @@ function loopHeroes () {
     }, 14000);
 }
 
+function updateWebpage() {
+    var loopStarted = false;
+    //Check if API key has been submit yet.
+    setInterval(function(){
+        if(filters.apiKey != "Bearer aaa.bbb.ccc" && !loopStarted) {
+            loopHeroes();
+            loopStarted = true;
+            console.log("API Key entered! Now searching for matches.")
+        } else {
+            heroPageData.outputData = output;
+            heroPageData.totalMatches = totalMatches;
+            heroPageData.ignsDone = ignIndexCounter;
+            heroPageData.ignsLeft = (IGNs.length-ignIndexCounter);
+            heroPageData.ignList = IGNs;
+            heroPageData.strongestCounter = getStrongestCounter(heroPageData.currentHero);
+        }
+    },2000);
+}
+
 //Actually use API
 function retrieveMatchHistory (playerName, teamName, filters) { 
     vgAPI.key = filters.apiKey,

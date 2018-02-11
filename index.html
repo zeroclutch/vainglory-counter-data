@@ -45,7 +45,7 @@
                         <th>Winrate</th>
                         <th>Matches</th>
                     </tr>
-                    <tr v-for="(value, key) in outputData[currentHero]">
+                    <tr v-for="(value, key) in outputData[currentHero]" v-if="key!=('winrate'&&'wins'&&'matches')">
                         <td class="ign-cell">
                             {{ key }}
                             <span class="tag is-success" v-if="value.winrate >= 54" style="text-transform: uppercase;">LOSES TO {{ currentHero }}</span>
