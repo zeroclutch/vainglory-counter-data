@@ -5,27 +5,27 @@ var IGNs = ["mrprgr"],
     totalMatches = 0;
 
 function loopHeroes () {
-//Filter out unneccessary lines
+    //Loop through heroes
     retrieveMatchHistory(IGNs[ignIndex], undefined, filters);
     ignIndex++;
     setTimeout(function () {
         retrieveMatchHistory(IGNs[ignIndex], undefined, filters);
-        if(ignIndex < IGNs.length) { //Theoretically will hit all active usernames in VG
+        if(ignIndex < IGNs.length) { //Continue running until all IGNs in region are indexed
             loopHeroes();
         }
         ignIndex++;
-    }, 250000);
+    }, 14000);
 }
 
 //Actually use API
 function retrieveMatchHistory (playerName, teamName, filters) { 
-    vgAPI.key = "API-KEY",
+    vgAPI.key = filters.apiKey,
     //Use API interface
     vgAPI.getMatchList({
         filterPlayerNames: playerName,
         //sort: "createdAt",
         filterCreatedAtStart: filters.createdStart,
-        filterGameMode: filter.gameMode,
+        filterGameMode: filters.gameMode,
         filterPatch: filters.patch,
         done: function(data){
             //console.log(data);
