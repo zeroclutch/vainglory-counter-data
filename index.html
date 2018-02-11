@@ -1,6 +1,5 @@
 <!DOCTYPE HTML>
 <html>
-
 <head>
     <title>Vainglory Hero Data</title>
     <link href="assets/styles/style.css" rel="stylesheet" type="text/css">
@@ -8,7 +7,7 @@
 </head>
 
 <body class="spaceless">
-    
+
     <section class="entry-screen">
         <!--h1 class="main-title">ENTER AN IGN</h1>
         <input type="text" class="ign ign-entry" autofocus>
@@ -20,7 +19,7 @@
     <section id="igns-screen"></section>
 
     <section id="hero-data-holder" class="responsive data-holder">
-        
+
         <section id="v-for-object" class="columns">
             <aside class="menu column is-one-third">
                 <ul class="menu-list">
@@ -32,7 +31,7 @@
                 <span class="tag is-primary">
                   {{ totalMatches }} matches searched
                 </span>
-                
+
                 <span class="tag is-info">
                      {{ ignsDone }} igns searched
                 </span>
@@ -49,19 +48,21 @@
                         <td class="ign-cell">
                             {{ key }}
                             <span class="tag is-success" v-if="value.winrate >= 54" style="text-transform: uppercase;">LOSES TO {{ currentHero }}</span>
-                            <span class="tag is-danger"  v-if="value.winrate <= 46" style="text-transform: uppercase;">COUNTERS {{ currentHero }}</span>
+                            <span class="tag is-danger" v-if="value.winrate <= 46" style="text-transform: uppercase;">COUNTERS {{ currentHero }}</span>
                         </td>
                         <td>{{ value.winrate }}%</td>
                         <td>{{ value.matches }}</td>
                     </tr>
-                    <tr><td>All data is from 2.12 ranked matches</td></tr>
+                    <tr>
+                        <td>All data is from 2.12 ranked matches</td>
+                    </tr>
                 </table>
             </section>
-            
+
         </section>
     </section>
 
-    
+
     <!--LIBRARIES-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
@@ -74,7 +75,7 @@
     <!--HERO DATA-->
     <script type="text/javascript" src="example-data/blank.js"></script>
     <script type="text/javascript" src="example-data/380kmatches.js"></script>
-    
+
     <!--WEBPAGE SCRIPTS-->
     <script src="assets/scripts/console.js"></script>
     <script src="filters.js"></script>
@@ -98,5 +99,4 @@
     </script>
     <script></script>
 </body>
-
 </html>
