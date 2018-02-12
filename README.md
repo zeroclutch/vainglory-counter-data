@@ -13,7 +13,6 @@ filters.apiKey = 'Bearer YourAPIKey'
 If you want to restart the search with your own filters, enter this in console:
 ```js
 filters.gameMode = "ranked"; /*try casual, ranked, casual_aral, blitz_pvp_ranked, 5v5_pvp_casual*/
-filters.createdStart = new Date(new Date().setDate(new Date().getDate() - 27)).toISOString();
 filters.patch = "2.12";
 filters.apiKey = "Bearer YourAPIKey"; /*to get an API key, see above*/
 restartSearch();
