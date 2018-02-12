@@ -98,6 +98,7 @@ function mapParticipantHeroes (heroData, participants) {
                 output[winnerName][loserName].wins++;
                 output[winnerName][loserName].matches++;
                 output[winnerName][loserName].winrate = (output[winnerName][loserName].wins / output[winnerName][loserName].matches * 100).toFixed(2);
+                output[winnerName][loserName].winrate = parseFloat(output[winnerName][loserName].winrate);
                 
                 //Initialize loser hero object
                 if(!output[loserName]){
