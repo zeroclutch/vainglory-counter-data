@@ -4,6 +4,14 @@ var IGNs = ["mrprgr"],
     output = blankTemplate,
     totalMatches = 0;
 
+function restartSearch() {
+    IGNs = ["FlashX","mrprgr"],
+    ignIndex = 0,
+    ignIndexCounter = 0,
+    output = blankTemplate,
+    totalMatches = 0;
+}
+
 function loopHeroes () {
     //Loop through heroes
     retrieveMatchHistory(IGNs[ignIndex], undefined, filters);
