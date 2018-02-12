@@ -141,8 +141,8 @@ aside {
     background-color: white;
     height: calc(100vh + 10px);
     overflow-y: scroll;
-    margin-left: 5px;
-    
+    margin-left: 10px;
+    max-width: 450px;
 }
 
 table {

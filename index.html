@@ -33,7 +33,10 @@
         <section id="v-for-object" class="columns">
             <aside class="menu column is-one-third">
                 <ul class="menu-list">
-                    <li class="list-item" v-for="(value, key) in outputData" v-on:click="currentHero = key"><a>{{ key }} <span class="tag is-primary" v-if="key == currentHero">SELECTED</span></a></li>
+                    <li class="list-item" v-for="(value, key) in outputData" v-on:click="currentHero = key">
+                        <a class="is-active" v-if="key == currentHero">{{ key }}</a>
+                        <a v-if="key != currentHero">{{ key }}</a>
+                    </li>
                 </ul>
             </aside>
             <section id="table-content" class="column is-one-half">
