@@ -11,11 +11,11 @@ function animateIgnScene () {
     }, 2000);
 };
 
-function populateStatistics() {
-}
+function populateStatistics() {}
 
 function delayData () {
     setTimeout(function(){
+        document.querySelector("#data-info").innerHTML = "All data is from " + filters.patch + " " + filters.gameMode + " matches";
         document.querySelector("#table-content").style.visibility = "visible";
     }, 1400);
 }
