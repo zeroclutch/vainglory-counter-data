@@ -7,6 +7,7 @@ var blankTemplate = {
         },
         "Alpha": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ardan": {
@@ -16,6 +17,7 @@ var blankTemplate = {
         },
         "Baptiste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baron": {
@@ -25,6 +27,7 @@ var blankTemplate = {
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
@@ -34,14 +37,17 @@ var blankTemplate = {
         },
         "Celeste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Churnwalker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Flicker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Fortress": {
@@ -51,30 +57,37 @@ var blankTemplate = {
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Idris": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Joule": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
@@ -84,6 +97,7 @@ var blankTemplate = {
         },
         "Krul": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lance": {
@@ -93,13 +107,14 @@ var blankTemplate = {
         },
         "Lorelai": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lyra": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
-        "matches": 0,
         "Ozo": {
             "matches": 0,
             "winrate": 0,
@@ -112,6 +127,7 @@ var blankTemplate = {
         },
         "Phinn": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reim": {
@@ -126,10 +142,12 @@ var blankTemplate = {
         },
         "Ringo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Rona": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Samuel": {
@@ -139,6 +157,7 @@ var blankTemplate = {
         },
         "SAW": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skaarf": {
@@ -148,22 +167,24 @@ var blankTemplate = {
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Varya": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Vox": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
-        },
-        "winrate": 0,
-        "wins": 0
+        }
     },
     "Alpha": {
         "Adagio": {
@@ -178,10 +199,12 @@ var blankTemplate = {
         },
         "Ardan": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baptiste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baron": {
@@ -191,10 +214,12 @@ var blankTemplate = {
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Celeste": {
@@ -204,10 +229,12 @@ var blankTemplate = {
         },
         "Churnwalker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Flicker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Fortress": {
@@ -222,6 +249,7 @@ var blankTemplate = {
         },
         "Grace": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grumpjaw": {
@@ -246,6 +274,7 @@ var blankTemplate = {
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
@@ -255,14 +284,17 @@ var blankTemplate = {
         },
         "Krul": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lyra": {
@@ -272,18 +304,22 @@ var blankTemplate = {
         },
         "Ozo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Petal": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Phinn": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reim": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reza": {
@@ -293,14 +329,17 @@ var blankTemplate = {
         },
         "Ringo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Rona": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Samuel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "SAW": {
@@ -310,18 +349,22 @@ var blankTemplate = {
         },
         "Skaarf": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Varya": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Vox": {
@@ -333,6 +376,7 @@ var blankTemplate = {
     "Ardan": {
         "Adagio": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Alpha": {
@@ -357,6 +401,7 @@ var blankTemplate = {
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
@@ -371,6 +416,7 @@ var blankTemplate = {
         },
         "Churnwalker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Flicker": {
@@ -395,14 +441,17 @@ var blankTemplate = {
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Idris": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Joule": {
@@ -412,18 +461,22 @@ var blankTemplate = {
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Krul": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
@@ -436,7 +489,6 @@ var blankTemplate = {
             "winrate": 0,
             "wins": 0
         },
-        "matches": 0,
         "Ozo": {
             "matches": 0,
             "winrate": 0,
@@ -444,18 +496,22 @@ var blankTemplate = {
         },
         "Petal": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Phinn": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reim": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reza": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ringo": {
@@ -465,6 +521,7 @@ var blankTemplate = {
         },
         "Rona": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Samuel": {
@@ -474,6 +531,7 @@ var blankTemplate = {
         },
         "SAW": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skaarf": {
@@ -483,6 +541,7 @@ var blankTemplate = {
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
@@ -499,9 +558,7 @@ var blankTemplate = {
             "matches": 0,
             "winrate": 0,
             "wins": 0
-        },
-        "winrate": 0,
-        "wins": 0
+        }
     },
     "Baptiste": {
         "Adagio": {
@@ -516,6 +573,7 @@ var blankTemplate = {
         },
         "Ardan": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baptiste": {
@@ -525,6 +583,7 @@ var blankTemplate = {
         },
         "Baron": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Blackfeather": {
@@ -534,6 +593,7 @@ var blankTemplate = {
         },
         "Catherine": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Celeste": {
@@ -553,10 +613,12 @@ var blankTemplate = {
         },
         "Fortress": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
@@ -566,6 +628,7 @@ var blankTemplate = {
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
@@ -575,10 +638,12 @@ var blankTemplate = {
         },
         "Idris": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Joule": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Kestrel": {
@@ -618,10 +683,12 @@ var blankTemplate = {
         },
         "Petal": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Phinn": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reim": {
@@ -631,10 +698,12 @@ var blankTemplate = {
         },
         "Reza": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ringo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Rona": {
@@ -644,10 +713,12 @@ var blankTemplate = {
         },
         "Samuel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "SAW": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skaarf": {
@@ -657,10 +728,12 @@ var blankTemplate = {
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Varya": {
@@ -670,20 +743,24 @@ var blankTemplate = {
         },
         "Vox": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         }
     },
     "Baron": {
         "Adagio": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Alpha": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ardan": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baptiste": {
@@ -698,6 +775,7 @@ var blankTemplate = {
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
@@ -707,6 +785,7 @@ var blankTemplate = {
         },
         "Celeste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Churnwalker": {
@@ -726,6 +805,7 @@ var blankTemplate = {
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
@@ -735,14 +815,17 @@ var blankTemplate = {
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Idris": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Joule": {
@@ -757,14 +840,17 @@ var blankTemplate = {
         },
         "Koshka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Krul": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
@@ -774,9 +860,9 @@ var blankTemplate = {
         },
         "Lyra": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
-        "matches": 0,
         "Ozo": {
             "matches": 0,
             "winrate": 0,
@@ -784,6 +870,7 @@ var blankTemplate = {
         },
         "Petal": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Phinn": {
@@ -803,10 +890,12 @@ var blankTemplate = {
         },
         "Ringo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Rona": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Samuel": {
@@ -816,30 +905,34 @@ var blankTemplate = {
         },
         "SAW": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skaarf": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Varya": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Vox": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
-        },
-        "winrate": 0,
-        "wins": 0
+        }
     },
     "Blackfeather": {
         "Adagio": {
@@ -859,6 +952,7 @@ var blankTemplate = {
         },
         "Baptiste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baron": {
@@ -898,6 +992,7 @@ var blankTemplate = {
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
@@ -927,6 +1022,7 @@ var blankTemplate = {
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
@@ -951,6 +1047,7 @@ var blankTemplate = {
         },
         "Lyra": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ozo": {
@@ -970,6 +1067,7 @@ var blankTemplate = {
         },
         "Reim": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reza": {
@@ -989,10 +1087,12 @@ var blankTemplate = {
         },
         "Samuel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "SAW": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skaarf": {
@@ -1007,6 +1107,7 @@ var blankTemplate = {
         },
         "Taka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Varya": {
@@ -1023,6 +1124,7 @@ var blankTemplate = {
     "Catherine": {
         "Adagio": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Alpha": {
@@ -1032,6 +1134,7 @@ var blankTemplate = {
         },
         "Ardan": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baptiste": {
@@ -1041,10 +1144,12 @@ var blankTemplate = {
         },
         "Baron": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
@@ -1059,10 +1164,12 @@ var blankTemplate = {
         },
         "Churnwalker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Flicker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Fortress": {
@@ -1072,10 +1179,12 @@ var blankTemplate = {
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grumpjaw": {
@@ -1100,6 +1209,7 @@ var blankTemplate = {
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
@@ -1114,10 +1224,12 @@ var blankTemplate = {
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lyra": {
@@ -1125,17 +1237,19 @@ var blankTemplate = {
             "winrate": 0,
             "wins": 0
         },
-        "matches": 0,
         "Ozo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Petal": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Phinn": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reim": {
@@ -1145,10 +1259,12 @@ var blankTemplate = {
         },
         "Reza": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ringo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Rona": {
@@ -1163,6 +1279,7 @@ var blankTemplate = {
         },
         "SAW": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skaarf": {
@@ -1172,10 +1289,12 @@ var blankTemplate = {
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Varya": {
@@ -1187,9 +1306,7 @@ var blankTemplate = {
             "matches": 0,
             "winrate": 0,
             "wins": 0
-        },
-        "winrate": 0,
-        "wins": 0
+        }
     },
     "Celeste": {
         "Adagio": {
@@ -1199,14 +1316,17 @@ var blankTemplate = {
         },
         "Alpha": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ardan": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baptiste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baron": {
@@ -1216,10 +1336,12 @@ var blankTemplate = {
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Celeste": {
@@ -1244,6 +1366,7 @@ var blankTemplate = {
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
@@ -1273,14 +1396,17 @@ var blankTemplate = {
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Krul": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lance": {
@@ -1295,10 +1421,12 @@ var blankTemplate = {
         },
         "Lyra": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ozo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Petal": {
@@ -1313,14 +1441,17 @@ var blankTemplate = {
         },
         "Reim": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reza": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ringo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Rona": {
@@ -1330,6 +1461,7 @@ var blankTemplate = {
         },
         "Samuel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "SAW": {
@@ -1339,18 +1471,22 @@ var blankTemplate = {
         },
         "Skaarf": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Varya": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Vox": {
@@ -1377,14 +1513,17 @@ var blankTemplate = {
         },
         "Baptiste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baron": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
@@ -1394,6 +1533,7 @@ var blankTemplate = {
         },
         "Celeste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Churnwalker": {
@@ -1418,10 +1558,12 @@ var blankTemplate = {
         },
         "Grace": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
@@ -1431,18 +1573,22 @@ var blankTemplate = {
         },
         "Idris": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Joule": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Krul": {
@@ -1452,14 +1598,17 @@ var blankTemplate = {
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lyra": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ozo": {
@@ -1474,14 +1623,17 @@ var blankTemplate = {
         },
         "Phinn": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reim": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reza": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ringo": {
@@ -1491,10 +1643,12 @@ var blankTemplate = {
         },
         "Rona": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Samuel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "SAW": {
@@ -1509,6 +1663,7 @@ var blankTemplate = {
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
@@ -1523,6 +1678,7 @@ var blankTemplate = {
         },
         "Vox": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         }
     },
@@ -1539,18 +1695,22 @@ var blankTemplate = {
         },
         "Ardan": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baptiste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baron": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
@@ -1560,10 +1720,12 @@ var blankTemplate = {
         },
         "Celeste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Churnwalker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Flicker": {
@@ -1588,6 +1750,7 @@ var blankTemplate = {
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
@@ -1597,10 +1760,12 @@ var blankTemplate = {
         },
         "Idris": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Joule": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Kestrel": {
@@ -1615,6 +1780,7 @@ var blankTemplate = {
         },
         "Krul": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lance": {
@@ -1629,6 +1795,7 @@ var blankTemplate = {
         },
         "Lyra": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ozo": {
@@ -1643,18 +1810,22 @@ var blankTemplate = {
         },
         "Phinn": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reim": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reza": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ringo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Rona": {
@@ -1694,20 +1865,24 @@ var blankTemplate = {
         },
         "Vox": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         }
     },
     "Fortress": {
         "Adagio": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Alpha": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ardan": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baptiste": {
@@ -1717,26 +1892,32 @@ var blankTemplate = {
         },
         "Baron": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Celeste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Churnwalker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Flicker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Fortress": {
@@ -1746,6 +1927,7 @@ var blankTemplate = {
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
@@ -1755,10 +1937,12 @@ var blankTemplate = {
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Idris": {
@@ -1768,14 +1952,17 @@ var blankTemplate = {
         },
         "Joule": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Krul": {
@@ -1785,14 +1972,17 @@ var blankTemplate = {
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lyra": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ozo": {
@@ -1802,14 +1992,17 @@ var blankTemplate = {
         },
         "Petal": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Phinn": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reim": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reza": {
@@ -1829,6 +2022,7 @@ var blankTemplate = {
         },
         "Samuel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "SAW": {
@@ -1838,6 +2032,7 @@ var blankTemplate = {
         },
         "Skaarf": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skye": {
@@ -1847,14 +2042,17 @@ var blankTemplate = {
         },
         "Taka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Varya": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Vox": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         }
     },
@@ -1866,10 +2064,12 @@ var blankTemplate = {
         },
         "Alpha": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ardan": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baptiste": {
@@ -1899,10 +2099,12 @@ var blankTemplate = {
         },
         "Churnwalker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Flicker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Fortress": {
@@ -1927,6 +2129,7 @@ var blankTemplate = {
         },
         "Gwen": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Idris": {
@@ -1941,6 +2144,7 @@ var blankTemplate = {
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
@@ -1955,6 +2159,7 @@ var blankTemplate = {
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
@@ -1979,10 +2184,12 @@ var blankTemplate = {
         },
         "Phinn": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reim": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reza": {
@@ -2007,10 +2214,12 @@ var blankTemplate = {
         },
         "SAW": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skaarf": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skye": {
@@ -2047,18 +2256,22 @@ var blankTemplate = {
         },
         "Ardan": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baptiste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baron": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
@@ -2068,6 +2281,7 @@ var blankTemplate = {
         },
         "Celeste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Churnwalker": {
@@ -2077,14 +2291,17 @@ var blankTemplate = {
         },
         "Flicker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Fortress": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
@@ -2104,6 +2321,7 @@ var blankTemplate = {
         },
         "Idris": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Joule": {
@@ -2118,31 +2336,37 @@ var blankTemplate = {
         },
         "Koshka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Krul": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lyra": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
-        "matches": 0,
         "Ozo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Petal": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Phinn": {
@@ -2157,14 +2381,17 @@ var blankTemplate = {
         },
         "Reza": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ringo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Rona": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Samuel": {
@@ -2174,6 +2401,7 @@ var blankTemplate = {
         },
         "SAW": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skaarf": {
@@ -2183,10 +2411,12 @@ var blankTemplate = {
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Varya": {
@@ -2196,10 +2426,9 @@ var blankTemplate = {
         },
         "Vox": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
-        },
-        "winrate": 0,
-        "wins": 0
+        }
     },
     "Grumpjaw": {
         "Adagio": {
@@ -2209,6 +2438,7 @@ var blankTemplate = {
         },
         "Alpha": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ardan": {
@@ -2228,14 +2458,17 @@ var blankTemplate = {
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Celeste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Churnwalker": {
@@ -2255,10 +2488,12 @@ var blankTemplate = {
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grumpjaw": {
@@ -2283,6 +2518,7 @@ var blankTemplate = {
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
@@ -2297,6 +2533,7 @@ var blankTemplate = {
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
@@ -2306,6 +2543,7 @@ var blankTemplate = {
         },
         "Lyra": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ozo": {
@@ -2335,6 +2573,7 @@ var blankTemplate = {
         },
         "Ringo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Rona": {
@@ -2344,6 +2583,7 @@ var blankTemplate = {
         },
         "Samuel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "SAW": {
@@ -2385,6 +2625,7 @@ var blankTemplate = {
         },
         "Alpha": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ardan": {
@@ -2394,6 +2635,7 @@ var blankTemplate = {
         },
         "Baptiste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baron": {
@@ -2403,22 +2645,27 @@ var blankTemplate = {
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Celeste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Churnwalker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Flicker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Fortress": {
@@ -2433,10 +2680,12 @@ var blankTemplate = {
         },
         "Grace": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
@@ -2456,10 +2705,12 @@ var blankTemplate = {
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Krul": {
@@ -2469,10 +2720,12 @@ var blankTemplate = {
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lyra": {
@@ -2502,6 +2755,7 @@ var blankTemplate = {
         },
         "Reza": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ringo": {
@@ -2511,6 +2765,7 @@ var blankTemplate = {
         },
         "Rona": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Samuel": {
@@ -2520,6 +2775,7 @@ var blankTemplate = {
         },
         "SAW": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skaarf": {
@@ -2529,6 +2785,7 @@ var blankTemplate = {
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
@@ -2538,10 +2795,12 @@ var blankTemplate = {
         },
         "Varya": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Vox": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         }
     },
@@ -2553,6 +2812,7 @@ var blankTemplate = {
         },
         "Alpha": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ardan": {
@@ -2572,14 +2832,17 @@ var blankTemplate = {
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Celeste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Churnwalker": {
@@ -2594,10 +2857,12 @@ var blankTemplate = {
         },
         "Fortress": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
@@ -2607,10 +2872,12 @@ var blankTemplate = {
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Idris": {
@@ -2625,10 +2892,12 @@ var blankTemplate = {
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Krul": {
@@ -2638,17 +2907,19 @@ var blankTemplate = {
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lyra": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
-        "matches": 0,
         "Ozo": {
             "matches": 0,
             "winrate": 0,
@@ -2691,30 +2962,34 @@ var blankTemplate = {
         },
         "SAW": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skaarf": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Varya": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Vox": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
-        },
-        "winrate": 0,
-        "wins": 0
+        }
     },
     "Joule": {
         "Adagio": {
@@ -2724,10 +2999,12 @@ var blankTemplate = {
         },
         "Alpha": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ardan": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baptiste": {
@@ -2737,18 +3014,22 @@ var blankTemplate = {
         },
         "Baron": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Celeste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Churnwalker": {
@@ -2768,22 +3049,27 @@ var blankTemplate = {
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Idris": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Joule": {
@@ -2793,6 +3079,7 @@ var blankTemplate = {
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
@@ -2802,21 +3089,24 @@ var blankTemplate = {
         },
         "Krul": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lyra": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
-        "matches": 0,
         "Ozo": {
             "matches": 0,
             "winrate": 0,
@@ -2829,10 +3119,12 @@ var blankTemplate = {
         },
         "Phinn": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reim": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reza": {
@@ -2842,10 +3134,12 @@ var blankTemplate = {
         },
         "Ringo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Rona": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Samuel": {
@@ -2855,30 +3149,34 @@ var blankTemplate = {
         },
         "SAW": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skaarf": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Varya": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Vox": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
-        },
-        "winrate": 0,
-        "wins": 0
+        }
     },
     "Kestrel": {
         "Adagio": {
@@ -2898,10 +3196,12 @@ var blankTemplate = {
         },
         "Baptiste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baron": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Blackfeather": {
@@ -2926,6 +3226,7 @@ var blankTemplate = {
         },
         "Flicker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Fortress": {
@@ -2940,6 +3241,7 @@ var blankTemplate = {
         },
         "Grace": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grumpjaw": {
@@ -2984,6 +3286,7 @@ var blankTemplate = {
         },
         "Lorelai": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lyra": {
@@ -2993,22 +3296,27 @@ var blankTemplate = {
         },
         "Ozo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Petal": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Phinn": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reim": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reza": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ringo": {
@@ -3048,6 +3356,7 @@ var blankTemplate = {
         },
         "Varya": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Vox": {
@@ -3059,10 +3368,12 @@ var blankTemplate = {
     "Koshka": {
         "Adagio": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Alpha": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ardan": {
@@ -3072,6 +3383,7 @@ var blankTemplate = {
         },
         "Baptiste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baron": {
@@ -3081,10 +3393,12 @@ var blankTemplate = {
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Celeste": {
@@ -3099,6 +3413,7 @@ var blankTemplate = {
         },
         "Flicker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Fortress": {
@@ -3108,6 +3423,7 @@ var blankTemplate = {
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
@@ -3117,6 +3433,7 @@ var blankTemplate = {
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
@@ -3131,10 +3448,12 @@ var blankTemplate = {
         },
         "Joule": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
@@ -3149,10 +3468,12 @@ var blankTemplate = {
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lyra": {
@@ -3160,7 +3481,6 @@ var blankTemplate = {
             "winrate": 0,
             "wins": 0
         },
-        "matches": 0,
         "Ozo": {
             "matches": 0,
             "winrate": 0,
@@ -3173,6 +3493,7 @@ var blankTemplate = {
         },
         "Phinn": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reim": {
@@ -3187,6 +3508,7 @@ var blankTemplate = {
         },
         "Ringo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Rona": {
@@ -3196,6 +3518,7 @@ var blankTemplate = {
         },
         "Samuel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "SAW": {
@@ -3205,10 +3528,12 @@ var blankTemplate = {
         },
         "Skaarf": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
@@ -3218,14 +3543,14 @@ var blankTemplate = {
         },
         "Varya": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Vox": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
-        },
-        "winrate": 0,
-        "wins": 0
+        }
     },
     "Krul": {
         "Adagio": {
@@ -3245,6 +3570,7 @@ var blankTemplate = {
         },
         "Baptiste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baron": {
@@ -3254,10 +3580,12 @@ var blankTemplate = {
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Celeste": {
@@ -3267,6 +3595,7 @@ var blankTemplate = {
         },
         "Churnwalker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Flicker": {
@@ -3276,10 +3605,12 @@ var blankTemplate = {
         },
         "Fortress": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
@@ -3289,14 +3620,17 @@ var blankTemplate = {
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Idris": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Joule": {
@@ -3306,10 +3640,12 @@ var blankTemplate = {
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Krul": {
@@ -3319,10 +3655,12 @@ var blankTemplate = {
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lyra": {
@@ -3330,9 +3668,9 @@ var blankTemplate = {
             "winrate": 0,
             "wins": 0
         },
-        "matches": 0,
         "Ozo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Petal": {
@@ -3342,14 +3680,17 @@ var blankTemplate = {
         },
         "Phinn": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reim": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reza": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ringo": {
@@ -3374,30 +3715,34 @@ var blankTemplate = {
         },
         "Skaarf": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Varya": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Vox": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
-        },
-        "winrate": 0,
-        "wins": 0
+        }
     },
     "Lance": {
         "Adagio": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Alpha": {
@@ -3412,6 +3757,7 @@ var blankTemplate = {
         },
         "Baptiste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baron": {
@@ -3421,6 +3767,7 @@ var blankTemplate = {
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
@@ -3430,6 +3777,7 @@ var blankTemplate = {
         },
         "Celeste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Churnwalker": {
@@ -3439,6 +3787,7 @@ var blankTemplate = {
         },
         "Flicker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Fortress": {
@@ -3478,6 +3827,7 @@ var blankTemplate = {
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
@@ -3497,14 +3847,17 @@ var blankTemplate = {
         },
         "Lorelai": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lyra": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ozo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Petal": {
@@ -3519,6 +3872,7 @@ var blankTemplate = {
         },
         "Reim": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reza": {
@@ -3533,6 +3887,7 @@ var blankTemplate = {
         },
         "Rona": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Samuel": {
@@ -3552,6 +3907,7 @@ var blankTemplate = {
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
@@ -3566,6 +3922,7 @@ var blankTemplate = {
         },
         "Vox": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         }
     },
@@ -3582,18 +3939,22 @@ var blankTemplate = {
         },
         "Ardan": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baptiste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baron": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
@@ -3603,6 +3964,7 @@ var blankTemplate = {
         },
         "Celeste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Churnwalker": {
@@ -3612,6 +3974,7 @@ var blankTemplate = {
         },
         "Flicker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Fortress": {
@@ -3621,6 +3984,7 @@ var blankTemplate = {
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
@@ -3630,6 +3994,7 @@ var blankTemplate = {
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
@@ -3674,10 +4039,12 @@ var blankTemplate = {
         },
         "Lyra": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ozo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Petal": {
@@ -3687,18 +4054,22 @@ var blankTemplate = {
         },
         "Phinn": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reim": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reza": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ringo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Rona": {
@@ -3723,10 +4094,12 @@ var blankTemplate = {
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Varya": {
@@ -3748,14 +4121,17 @@ var blankTemplate = {
         },
         "Alpha": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ardan": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baptiste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baron": {
@@ -3770,6 +4146,7 @@ var blankTemplate = {
         },
         "Catherine": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Celeste": {
@@ -3794,6 +4171,7 @@ var blankTemplate = {
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
@@ -3808,6 +4186,7 @@ var blankTemplate = {
         },
         "Gwen": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Idris": {
@@ -3822,14 +4201,17 @@ var blankTemplate = {
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Krul": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lance": {
@@ -3847,7 +4229,6 @@ var blankTemplate = {
             "winrate": 0,
             "wins": 0
         },
-        "matches": 0,
         "Ozo": {
             "matches": 0,
             "winrate": 0,
@@ -3855,6 +4236,7 @@ var blankTemplate = {
         },
         "Petal": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Phinn": {
@@ -3874,6 +4256,7 @@ var blankTemplate = {
         },
         "Ringo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Rona": {
@@ -3888,10 +4271,12 @@ var blankTemplate = {
         },
         "SAW": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skaarf": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skye": {
@@ -3901,22 +4286,24 @@ var blankTemplate = {
         },
         "Taka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Varya": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Vox": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
-        },
-        "winrate": 0,
-        "wins": 0
+        }
     },
     "Ozo": {
         "Adagio": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Alpha": {
@@ -3926,18 +4313,22 @@ var blankTemplate = {
         },
         "Ardan": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baptiste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baron": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
@@ -3952,18 +4343,22 @@ var blankTemplate = {
         },
         "Churnwalker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Flicker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Fortress": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
@@ -3973,18 +4368,22 @@ var blankTemplate = {
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Idris": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Joule": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Kestrel": {
@@ -3994,6 +4393,7 @@ var blankTemplate = {
         },
         "Koshka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Krul": {
@@ -4013,9 +4413,9 @@ var blankTemplate = {
         },
         "Lyra": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
-        "matches": 0,
         "Ozo": {
             "matches": 0,
             "winrate": 0,
@@ -4023,6 +4423,7 @@ var blankTemplate = {
         },
         "Petal": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Phinn": {
@@ -4037,18 +4438,22 @@ var blankTemplate = {
         },
         "Reza": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ringo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Rona": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Samuel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "SAW": {
@@ -4063,6 +4468,7 @@ var blankTemplate = {
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
@@ -4077,14 +4483,14 @@ var blankTemplate = {
         },
         "Vox": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
-        },
-        "winrate": 0,
-        "wins": 0
+        }
     },
     "Petal": {
         "Adagio": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Alpha": {
@@ -4109,6 +4515,7 @@ var blankTemplate = {
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
@@ -4118,14 +4525,17 @@ var blankTemplate = {
         },
         "Celeste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Churnwalker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Flicker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Fortress": {
@@ -4135,6 +4545,7 @@ var blankTemplate = {
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
@@ -4144,18 +4555,22 @@ var blankTemplate = {
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Idris": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Joule": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Kestrel": {
@@ -4165,18 +4580,22 @@ var blankTemplate = {
         },
         "Koshka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Krul": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lyra": {
@@ -4196,10 +4615,12 @@ var blankTemplate = {
         },
         "Phinn": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reim": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reza": {
@@ -4214,6 +4635,7 @@ var blankTemplate = {
         },
         "Rona": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Samuel": {
@@ -4223,14 +4645,17 @@ var blankTemplate = {
         },
         "SAW": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skaarf": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
@@ -4240,10 +4665,12 @@ var blankTemplate = {
         },
         "Varya": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Vox": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         }
     },
@@ -4270,10 +4697,12 @@ var blankTemplate = {
         },
         "Baron": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
@@ -4283,6 +4712,7 @@ var blankTemplate = {
         },
         "Celeste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Churnwalker": {
@@ -4307,18 +4737,22 @@ var blankTemplate = {
         },
         "Grace": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Idris": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Joule": {
@@ -4343,6 +4777,7 @@ var blankTemplate = {
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
@@ -4352,10 +4787,12 @@ var blankTemplate = {
         },
         "Lyra": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ozo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Petal": {
@@ -4375,6 +4812,7 @@ var blankTemplate = {
         },
         "Reza": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ringo": {
@@ -4394,6 +4832,7 @@ var blankTemplate = {
         },
         "SAW": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skaarf": {
@@ -4403,6 +4842,7 @@ var blankTemplate = {
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
@@ -4412,16 +4852,19 @@ var blankTemplate = {
         },
         "Varya": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Vox": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         }
     },
     "Reim": {
         "Adagio": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Alpha": {
@@ -4436,10 +4879,12 @@ var blankTemplate = {
         },
         "Baptiste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baron": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Blackfeather": {
@@ -4449,6 +4894,7 @@ var blankTemplate = {
         },
         "Catherine": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Celeste": {
@@ -4478,18 +4924,22 @@ var blankTemplate = {
         },
         "Grace": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Idris": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Joule": {
@@ -4504,6 +4954,7 @@ var blankTemplate = {
         },
         "Koshka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Krul": {
@@ -4523,10 +4974,12 @@ var blankTemplate = {
         },
         "Lyra": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ozo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Petal": {
@@ -4536,6 +4989,7 @@ var blankTemplate = {
         },
         "Phinn": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reim": {
@@ -4545,6 +4999,7 @@ var blankTemplate = {
         },
         "Reza": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ringo": {
@@ -4554,14 +5009,17 @@ var blankTemplate = {
         },
         "Rona": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Samuel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "SAW": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skaarf": {
@@ -4571,28 +5029,34 @@ var blankTemplate = {
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Varya": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Vox": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         }
     },
     "Reza": {
         "Adagio": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Alpha": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ardan": {
@@ -4607,10 +5071,12 @@ var blankTemplate = {
         },
         "Baron": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
@@ -4635,10 +5101,12 @@ var blankTemplate = {
         },
         "Fortress": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
@@ -4648,6 +5116,7 @@ var blankTemplate = {
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
@@ -4657,10 +5126,12 @@ var blankTemplate = {
         },
         "Idris": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Joule": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Kestrel": {
@@ -4670,6 +5141,7 @@ var blankTemplate = {
         },
         "Koshka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Krul": {
@@ -4679,6 +5151,7 @@ var blankTemplate = {
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
@@ -4688,6 +5161,7 @@ var blankTemplate = {
         },
         "Lyra": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ozo": {
@@ -4697,6 +5171,7 @@ var blankTemplate = {
         },
         "Petal": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Phinn": {
@@ -4716,6 +5191,7 @@ var blankTemplate = {
         },
         "Ringo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Rona": {
@@ -4725,14 +5201,17 @@ var blankTemplate = {
         },
         "Samuel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "SAW": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skaarf": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skye": {
@@ -4742,14 +5221,17 @@ var blankTemplate = {
         },
         "Taka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Varya": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Vox": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         }
     },
@@ -4766,6 +5248,7 @@ var blankTemplate = {
         },
         "Ardan": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baptiste": {
@@ -4780,6 +5263,7 @@ var blankTemplate = {
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
@@ -4794,6 +5278,7 @@ var blankTemplate = {
         },
         "Churnwalker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Flicker": {
@@ -4803,10 +5288,12 @@ var blankTemplate = {
         },
         "Fortress": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
@@ -4821,10 +5308,12 @@ var blankTemplate = {
         },
         "Gwen": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Idris": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Joule": {
@@ -4834,6 +5323,7 @@ var blankTemplate = {
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
@@ -4843,10 +5333,12 @@ var blankTemplate = {
         },
         "Krul": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
@@ -4859,7 +5351,6 @@ var blankTemplate = {
             "winrate": 0,
             "wins": 0
         },
-        "matches": 0,
         "Ozo": {
             "matches": 0,
             "winrate": 0,
@@ -4867,14 +5358,17 @@ var blankTemplate = {
         },
         "Petal": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Phinn": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reim": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reza": {
@@ -4894,6 +5388,7 @@ var blankTemplate = {
         },
         "Samuel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "SAW": {
@@ -4908,6 +5403,7 @@ var blankTemplate = {
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
@@ -4924,9 +5420,7 @@ var blankTemplate = {
             "matches": 0,
             "winrate": 0,
             "wins": 0
-        },
-        "winrate": 0,
-        "wins": 0
+        }
     },
     "Rona": {
         "Adagio": {
@@ -4946,6 +5440,7 @@ var blankTemplate = {
         },
         "Baptiste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baron": {
@@ -4955,14 +5450,17 @@ var blankTemplate = {
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Celeste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Churnwalker": {
@@ -4972,14 +5470,17 @@ var blankTemplate = {
         },
         "Flicker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Fortress": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
@@ -4989,6 +5490,7 @@ var blankTemplate = {
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
@@ -4998,6 +5500,7 @@ var blankTemplate = {
         },
         "Idris": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Joule": {
@@ -5007,14 +5510,17 @@ var blankTemplate = {
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Krul": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lance": {
@@ -5024,13 +5530,14 @@ var blankTemplate = {
         },
         "Lorelai": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lyra": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
-        "matches": 0,
         "Ozo": {
             "matches": 0,
             "winrate": 0,
@@ -5043,6 +5550,7 @@ var blankTemplate = {
         },
         "Phinn": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reim": {
@@ -5052,10 +5560,12 @@ var blankTemplate = {
         },
         "Reza": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ringo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Rona": {
@@ -5075,10 +5585,12 @@ var blankTemplate = {
         },
         "Skaarf": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
@@ -5088,18 +5600,19 @@ var blankTemplate = {
         },
         "Varya": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Vox": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
-        },
-        "winrate": 0,
-        "wins": 0
+        }
     },
     "Samuel": {
         "Adagio": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Alpha": {
@@ -5109,6 +5622,7 @@ var blankTemplate = {
         },
         "Ardan": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baptiste": {
@@ -5118,6 +5632,7 @@ var blankTemplate = {
         },
         "Baron": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Blackfeather": {
@@ -5127,6 +5642,7 @@ var blankTemplate = {
         },
         "Catherine": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Celeste": {
@@ -5141,6 +5657,7 @@ var blankTemplate = {
         },
         "Flicker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Fortress": {
@@ -5150,10 +5667,12 @@ var blankTemplate = {
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grumpjaw": {
@@ -5163,18 +5682,22 @@ var blankTemplate = {
         },
         "Gwen": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Idris": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Joule": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
@@ -5184,18 +5707,22 @@ var blankTemplate = {
         },
         "Krul": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lyra": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ozo": {
@@ -5205,10 +5732,12 @@ var blankTemplate = {
         },
         "Petal": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Phinn": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reim": {
@@ -5228,6 +5757,7 @@ var blankTemplate = {
         },
         "Rona": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Samuel": {
@@ -5237,14 +5767,17 @@ var blankTemplate = {
         },
         "SAW": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skaarf": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
@@ -5271,6 +5804,7 @@ var blankTemplate = {
         },
         "Alpha": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ardan": {
@@ -5300,18 +5834,22 @@ var blankTemplate = {
         },
         "Celeste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Churnwalker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Flicker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Fortress": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Glaive": {
@@ -5326,6 +5864,7 @@ var blankTemplate = {
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
@@ -5345,22 +5884,27 @@ var blankTemplate = {
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Krul": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lyra": {
@@ -5368,9 +5912,9 @@ var blankTemplate = {
             "winrate": 0,
             "wins": 0
         },
-        "matches": 0,
         "Ozo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Petal": {
@@ -5395,10 +5939,12 @@ var blankTemplate = {
         },
         "Ringo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Rona": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Samuel": {
@@ -5413,31 +5959,34 @@ var blankTemplate = {
         },
         "Skaarf": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Varya": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Vox": {
             "matches": 0,
             "winrate": 0,
             "wins": 0
-        },
-        "winrate": 0,
-        "wins": 0
+        }
     },
     "Skaarf": {
         "Adagio": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Alpha": {
@@ -5447,10 +5996,12 @@ var blankTemplate = {
         },
         "Ardan": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baptiste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baron": {
@@ -5460,10 +6011,12 @@ var blankTemplate = {
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Celeste": {
@@ -5473,10 +6026,12 @@ var blankTemplate = {
         },
         "Churnwalker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Flicker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Fortress": {
@@ -5491,14 +6046,17 @@ var blankTemplate = {
         },
         "Grace": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Idris": {
@@ -5513,6 +6071,7 @@ var blankTemplate = {
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
@@ -5527,10 +6086,12 @@ var blankTemplate = {
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lyra": {
@@ -5538,9 +6099,9 @@ var blankTemplate = {
             "winrate": 0,
             "wins": 0
         },
-        "matches": 0,
         "Ozo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Petal": {
@@ -5550,10 +6111,12 @@ var blankTemplate = {
         },
         "Phinn": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reim": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reza": {
@@ -5563,6 +6126,7 @@ var blankTemplate = {
         },
         "Ringo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Rona": {
@@ -5587,6 +6151,7 @@ var blankTemplate = {
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
@@ -5603,9 +6168,7 @@ var blankTemplate = {
             "matches": 0,
             "winrate": 0,
             "wins": 0
-        },
-        "winrate": 0,
-        "wins": 0
+        }
     },
     "Skye": {
         "Adagio": {
@@ -5635,6 +6198,7 @@ var blankTemplate = {
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
@@ -5654,14 +6218,17 @@ var blankTemplate = {
         },
         "Flicker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Fortress": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
@@ -5671,6 +6238,7 @@ var blankTemplate = {
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
@@ -5690,6 +6258,7 @@ var blankTemplate = {
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
@@ -5714,9 +6283,9 @@ var blankTemplate = {
         },
         "Lyra": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
-        "matches": 0,
         "Ozo": {
             "matches": 0,
             "winrate": 0,
@@ -5739,6 +6308,7 @@ var blankTemplate = {
         },
         "Reza": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ringo": {
@@ -5785,9 +6355,7 @@ var blankTemplate = {
             "matches": 0,
             "winrate": 0,
             "wins": 0
-        },
-        "winrate": 0,
-        "wins": 0
+        }
     },
     "Taka": {
         "Adagio": {
@@ -5802,6 +6370,7 @@ var blankTemplate = {
         },
         "Ardan": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baptiste": {
@@ -5831,10 +6400,12 @@ var blankTemplate = {
         },
         "Churnwalker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Flicker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Fortress": {
@@ -5844,6 +6415,7 @@ var blankTemplate = {
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
@@ -5853,10 +6425,12 @@ var blankTemplate = {
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Idris": {
@@ -5871,10 +6445,12 @@ var blankTemplate = {
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Krul": {
@@ -5884,6 +6460,7 @@ var blankTemplate = {
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
@@ -5896,17 +6473,19 @@ var blankTemplate = {
             "winrate": 0,
             "wins": 0
         },
-        "matches": 0,
         "Ozo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Petal": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Phinn": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Reim": {
@@ -5921,14 +6500,17 @@ var blankTemplate = {
         },
         "Ringo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Rona": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Samuel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "SAW": {
@@ -5938,10 +6520,12 @@ var blankTemplate = {
         },
         "Skaarf": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
@@ -5958,9 +6542,7 @@ var blankTemplate = {
             "matches": 0,
             "winrate": 0,
             "wins": 0
-        },
-        "winrate": 0,
-        "wins": 0
+        }
     },
     "Varya": {
         "Adagio": {
@@ -5975,10 +6557,12 @@ var blankTemplate = {
         },
         "Ardan": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baptiste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baron": {
@@ -5988,10 +6572,12 @@ var blankTemplate = {
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Celeste": {
@@ -6001,10 +6587,12 @@ var blankTemplate = {
         },
         "Churnwalker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Flicker": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Fortress": {
@@ -6014,14 +6602,17 @@ var blankTemplate = {
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
@@ -6056,10 +6647,12 @@ var blankTemplate = {
         },
         "Lance": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lorelai": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lyra": {
@@ -6067,9 +6660,9 @@ var blankTemplate = {
             "winrate": 0,
             "wins": 0
         },
-        "matches": 0,
         "Ozo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Petal": {
@@ -6094,6 +6687,7 @@ var blankTemplate = {
         },
         "Ringo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Rona": {
@@ -6103,6 +6697,7 @@ var blankTemplate = {
         },
         "Samuel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "SAW": {
@@ -6112,14 +6707,17 @@ var blankTemplate = {
         },
         "Skaarf": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Varya": {
@@ -6129,10 +6727,9 @@ var blankTemplate = {
         },
         "Vox": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
-        },
-        "winrate": 0,
-        "wins": 0
+        }
     },
     "Vox": {
         "Adagio": {
@@ -6142,10 +6739,12 @@ var blankTemplate = {
         },
         "Alpha": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Ardan": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Baptiste": {
@@ -6160,14 +6759,17 @@ var blankTemplate = {
         },
         "Blackfeather": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Catherine": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Celeste": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Churnwalker": {
@@ -6187,6 +6789,7 @@ var blankTemplate = {
         },
         "Glaive": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Grace": {
@@ -6196,6 +6799,7 @@ var blankTemplate = {
         },
         "Grumpjaw": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Gwen": {
@@ -6215,6 +6819,7 @@ var blankTemplate = {
         },
         "Kestrel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Koshka": {
@@ -6234,6 +6839,7 @@ var blankTemplate = {
         },
         "Lorelai": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Lyra": {
@@ -6241,7 +6847,6 @@ var blankTemplate = {
             "winrate": 0,
             "wins": 0
         },
-        "matches": 0,
         "Ozo": {
             "matches": 0,
             "winrate": 0,
@@ -6269,6 +6874,7 @@ var blankTemplate = {
         },
         "Ringo": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Rona": {
@@ -6278,22 +6884,27 @@ var blankTemplate = {
         },
         "Samuel": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "SAW": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skaarf": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Skye": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Taka": {
             "matches": 0,
+            "winrate": 0,
             "wins": 0
         },
         "Varya": {
@@ -6305,8 +6916,6 @@ var blankTemplate = {
             "matches": 0,
             "winrate": 0,
             "wins": 0
-        },
-        "winrate": 0,
-        "wins": 0
+        }
     }
 }
