@@ -17,7 +17,7 @@ filters.patch = "2.12";
 filters.apiKey = "Bearer YourAPIKey"; /*to get an API key, see above*/
 restartSearch();
 ```
-To analyze some data, try the following commands in console
+To analyze some data, try the following commands in console:
 ```js
 getWeakestCounter('Alpha'); //Find the weakest matchup against Alpha
 getStrongestCounter('Rona'); //Find the best counter to Rona
