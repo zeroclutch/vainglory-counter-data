@@ -232,4 +232,56 @@ function getWeakestCounter(hero) {
     console.log(bestHero)
 }
 
+function getMostFrequentMatchup() {
+    var highestPoint = ["", 0];
+    for (var a in output) {
+        for (var b in output[a]) {
+            if (output[a][b].matches > highestPoint[1]) {
+                highestPoint[0] = a + " against " + b;
+                highestPoint[1] = output[a][b].matches;
+            }
+        }
+    }
+    return highestPoint;
+}
+
+function getLeastFrequentMatchup() {
+    var highestPoint = ["", 100000000];
+    for (var a in output) {
+        for (var b in output[a]) {
+            if (output[a][b].matches < highestPoint[1]) {
+                highestPoint[0] = a + " against " + b;
+                highestPoint[1] = output[a][b].matches;
+            }
+        }
+    }
+    return highestPoint;
+}
+
+function getBestMatchup() {
+    var highestPoint = ["", 0];
+    for (var a in output) {
+        for (var b in output[a]) {
+            if (output[a][b].winrate > highestPoint[1]) {
+                highestPoint[0] = a + " against " + b;
+                highestPoint[1] = output[a][b].winrate;
+            }
+        }
+    }
+    return highestPoint;
+}
+
+function getWorstMatchup() {
+    var highestPoint = ["", 1000];
+    for (var a in output) {
+        for (var b in output[a]) {
+            if (output[a][b].winrate < highestPoint[1]) {
+                highestPoint[0] = a + " against " + b;
+                highestPoint[1] = output[a][b].winrate;
+            }
+        }
+    }
+    return highestPoint;
+}
+
 console.log("Searching with filters:", filters);

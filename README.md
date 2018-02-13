@@ -17,7 +17,15 @@ filters.patch = "2.12";
 filters.apiKey = "Bearer YourAPIKey"; /*to get an API key, see above*/
 restartSearch();
 ```
-
+To analyze some data, try the following commands in console
+```js
+getWeakestCounter('Alpha'); //Find the weakest matchup against Alpha
+getStrongestCounter('Rona'); //Find the best counter to Rona
+getMostFrequentMatchup(); //Find the most common hero v. hero matchup by match coun
+getLeastFrequentMatchup(); //Find the least common hero v. hero matchup by match count
+getBestMatchup(); //Find the highest winrate hero v. hero matchup
+getWorstMatchup(); //Find the lowest winrate hero v. hero matchup
+```
 Type `help()` in console for more useful commands.
 
 If you want to get it locally, fork it or download it and add your Vainglory API key to filters.js. Then open index.html in any browser. Register for a key at [developer.vainglorygame.com](https://developer.vainglorygame.com/).
