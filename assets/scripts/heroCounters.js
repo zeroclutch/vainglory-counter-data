@@ -23,6 +23,8 @@ function restartSearch() {
 }
 
 function loopHeroes () {
+    var delay = Math.round(60/filters.rateLimit*2000);
+    
     //Loop through heroes
     retrieveMatchHistory(IGNs[ignIndex], undefined, filters);
     ignIndex++;
@@ -32,7 +34,7 @@ function loopHeroes () {
             loopHeroes();
         }
         ignIndex++;
-    }, Math.round(60/filters.rateLimit*2));
+    }, delay);
 }
 
 function updateWebpage() {
