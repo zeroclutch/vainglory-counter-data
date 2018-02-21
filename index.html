@@ -17,7 +17,7 @@
 </head>
 
 <body class="spaceless">
-
+    
     <section class="entry-screen">
         <a id="save-file" class="button is-primary"></a>
         <a id="preload-file" class="button is-info"></a>
@@ -32,14 +32,34 @@
     <section id="igns-screen"></section>
 
     <section id="hero-data-holder" class="responsive data-holder">
-
+        
         <section id="v-for-object" class="columns">
             <aside class="menu column is-one-third">
                 <ul class="menu-list">
-                    <li class="list-item" v-for="(value, key) in outputData" v-on:click="currentHero = key">
-                        <a class="is-active" v-if="key == currentHero">{{ key }}</a>
-                        <a v-if="key != currentHero">{{ key }}</a>
-                    </li>
+                    <span v-for="(value, key) in outputData">
+                        <p class="menu-label" v-if="key.split(' ')[0] == key || key.split(' ')[1] == 'Crystal' || (!outputData[key.split(' ')[0]+' Crystal'] && key.split(' ')[1] == 'Utility') || (!outputData[key.split(' ')[0]+' Crystal'] && !outputData[key.split(' ')[0]+' Utility'] && key.split(' ')[1] == 'Utility') ">
+                            {{ key.split(" ")[0] }}
+                        </p>
+                        <li class="list-item" v-on:click="currentHero = key">
+                            <span v-if="key.split(' ') == key">
+                                <a class="is-active" v-if="key == currentHero">{{ key }}</a>
+                                <a v-if="key != currentHero">{{ key }}</a>
+                            </span>
+                            <!--If hero is path specific-->
+                            <span v-if="key.split(' ') != key">
+                                <a class="is-active" v-if="key == currentHero">{{ key.split(" ")[0] }} 
+                                    <span class="tag is-danger" v-if="key.split(' ')[1] == 'Weapon'">WP</span>
+                                    <span class="tag is-info" v-if="key.split(' ')[1] == 'Crystal'">CP</span>
+                                    <span class="tag is-warning" v-if="key.split(' ')[1] == 'Utility'">UTIL</span>
+                                </a>
+                                <a v-if="key != currentHero">{{ key.split(" ")[0] }}
+                                    <span class="tag is-danger" v-if="key.split(' ')[1] == 'Weapon'">WP</span>
+                                    <span class="tag is-info" v-if="key.split(' ')[1] == 'Crystal'">CP</span>
+                                    <span class="tag is-warning" v-if="key.split(' ')[1] == 'Utility'">UTIL</span>
+                                </a>
+                            </span>
+                        </li>
+                    </span>
                 </ul>
             </aside>
             <section id="table-content" class="column is-one-half">
@@ -47,7 +67,7 @@
                 <span class="tag is-primary">
                   {{ totalMatches }} matches searched
                 </span>
-
+                
                 <span class="tag is-info">
                      {{ ignsDone }} igns searched
                 </span>
@@ -60,25 +80,24 @@
                         <th>Winrate</th>
                         <th>Matches</th>
                     </tr>
-                    <tr v-for="(value, key) in outputData[currentHero]" v-if="key!=('winrate'&&'wins'&&'matches')">
+                    <tr v-for="(value, key) in outputData[currentHero]">
                         <td class="ign-cell">
                             {{ key }}
                             <span class="tag is-success" v-if="value.winrate >= 54" style="text-transform: uppercase;">LOSES TO {{ currentHero }}</span>
-                            <span class="tag is-danger" v-if="value.winrate <= 46" style="text-transform: uppercase;">COUNTERS {{ currentHero }}</span>
+                            <span class="tag is-danger"  v-if="value.winrate <= 46" style="text-transform: uppercase;">COUNTERS {{ currentHero }}</span>
+                            <span class="tag is-warning"  v-if="key == strongestCounter" style="text-transform: uppercase;">STRONGEST COUNTER</span>
                         </td>
                         <td>{{ value.winrate }}%</td>
                         <td>{{ value.matches }}</td>
                     </tr>
-                    <tr>
-                        <td id="data-info">All data is from 2.12 ranked matches</td>
-                    </tr>
+                    <tr><td id="data-info">All data is from 3.0 5v5 matches</td></tr>
                 </table>
             </section>
-
+            
         </section>
     </section>
 
-
+    
     <!--LIBRARIES-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
@@ -89,14 +108,15 @@
     <script src="assets/scripts/api_interface.js"></script>
 
     <!--HERO DATA-->
-    <script type="text/javascript" src="example-data/blank.js"></script>
-    <script type="text/javascript" src="example-data/preloadedData.js"></script>
-
+    <script type="text/javascript" src="blank.js"></script>
+    <script type="text/javascript" src="380kmatches.js"></script>
+    
     <!--WEBPAGE SCRIPTS-->
     <script src="assets/scripts/console.js"></script>
     <script src="assets/scripts/permalink.js"></script>
-    <script src="filters.js"></script>
-    <script src="assets/scripts/hero-counters.js"></script>
+    <script src="assets/scripts/detectPaths.js"></script>
+    <script src="assets/scripts/heroCounters.js"></script>
+    <script src="example_data/preloadedData.js"></script>
     <script src="assets/scripts/updateInfo.js"></script>
     <script src="assets/scripts/managePageScenes.js"></script>
     <script>
@@ -104,16 +124,20 @@
             el: "#v-for-object",
             data: {
                 outputData: output,
-                currentHero: "Alpha",
+                currentHero: "Weapon Adagio",
                 totalMatches: 0,
                 ignsDone: 0,
                 ignsLeft: 0,
                 ignList: [],
-                strongestCounter: ""
+                strongestCounter: "",
+                lastHero: ""
             },
             methods: {}
         });
+        
+
     </script>
     <script></script>
 </body>
+
 </html>

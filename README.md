@@ -8,13 +8,13 @@ Try it at [zeroclutch.github.io/vainglory-counter-data](https://zeroclutch.githu
 
 If you have a [Vainglory API key](https://developer.vainglorygame.com/), you can search more matches to get additional data. Open the Javascript console and enter:
 ```js
-filters.apiKey = 'Bearer YourAPIKey'
+filters.apiKey = 'YourAPIKey'
 ```
 If you want to restart the search with your own filters, enter this in console:
 ```js
 filters.gameMode = "ranked"; /*try casual, ranked, casual_aral, blitz_pvp_ranked, 5v5_pvp_casual*/
 filters.patch = "2.12";
-filters.apiKey = "Bearer YourAPIKey"; /*to get an API key, see above*/
+filters.apiKey = "YourAPIKey"; /*to get an API key, see above*/
 restartSearch();
 ```
 To analyze some data, try the following commands in console:

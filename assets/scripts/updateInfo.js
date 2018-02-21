@@ -5,6 +5,8 @@ var preloadButton = document.querySelector("#preload-file");
 
 function simplifyData(data) {
     //Decode stored data
+    data.replace("\n","");
+    data.replace("====","==");
     var outputData = data.split("===");
     outputData[0] = JSON.parse(outputData[0]);
     outputData[1] = outputData[1].split("==");
@@ -30,11 +32,13 @@ saveButton.addEventListener("click", function() {
     output = simplifiedData[0];
     IGNs = simplifiedData[1];
     totalMatches = simplifiedData[2];
-    ignIndex = simplifiedData[3];
-    ignIndexCounter = simplifiedData[3];
+    ignIndex = 0;
+    ignIndexCounter = 0;
+    getHero();
     
     document.querySelector(".entry-screen").style.display = "none";
     document.querySelector("#hero-data-holder").style.display = "block";
+    
     if(filters.apiKey !== "Bearer aaa.bbb.ccc"){
         loopHeroes();
     } else {
@@ -49,10 +53,12 @@ preloadButton.addEventListener("click", function() {
     totalMatches = simplePreloadData[2];
     ignIndex = simplePreloadData[3];
     ignIndexCounter = simplePreloadData[3];
+    getHero();
     
     document.querySelector(".entry-screen").style.display = "none";
     document.querySelector("#hero-data-holder").style.display = "block";
-    if(filters.apiKey !== "Bearer aaa.bbb.ccc"){
+    
+    if(filters.apiKey !== "Bearer aaa.bbb.ccc") {
         loopHeroes();
     } else {
         updateWebpage();

@@ -11,7 +11,6 @@ function animateIgnScene () {
     }, 2000);
 };
 
-function populateStatistics() {}
 
 function delayData () {
     setTimeout(function(){
@@ -23,6 +22,7 @@ function delayData () {
 function introAnimation () {
     IGNs = [document.querySelector(".ign-entry").value];
     loopHeroes();
+    delayData();
     document.querySelector(".entry-screen").style.display = "none";
     document.querySelector("#hero-data-holder").style.display = "block";
     

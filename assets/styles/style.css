@@ -1,43 +1,3 @@
-/*Heroes
-.adagio{background-image: url(heroes/adagio.png);}
-.alpha{background-image: url(heroes/alpha.png);}
-.ardan{background-image: url(heroes/ardan.png);}
-.baron{background-image: url(heroes/baron.png);}
-.blackfeather{background-image: url(heroes/blackfeather.png);}
-.catherine{background-image: url(heroes/catherine.png);}
-.celeste{background-image: url(heroes/celeste.png);}
-.flicker{background-image: url(heroes/flicker.png);}
-.fortress{background-image: url(heroes/fortress.png);}
-.glaive{background-image: url(heroes/glaive.png);}
-.gwen{background-image: url(heroes/gwen.png);}
-.idris{background-image: url(heroes/idris.png);}
-.joule{background-image: url(heroes/joule.png);}
-.kestrel{background-image: url(heroes/kestrel.png);}
-.koshka{background-image: url(heroes/koshka.png);}
-.krul{background-image: url(heroes/krul.png);}
-.lance{background-image: url(heroes/lance.png);}
-.lyra{background-image: url(heroes/lyra.png);}
-.ozo{background-image: url(heroes/ozo.png);}
-.petal{background-image: url(heroes/petal.png);}
-.phinn{background-image: url(heroes/phinn.png);}
-.reim{background-image: url(heroes/reim.png);}
-.ringo{background-image: url(heroes/ringo.png);}
-.rona{background-image: url(heroes/rona.png);}
-.samuel{background-image: url(heroes/samuel.png);}
-.saw{background-image: url(heroes/saw.png);}
-.skaarf{background-image: url(heroes/skaarf.png);}
-.skye{background-image: url(heroes/skye.png);}
-.taka{background-image: url(heroes/taka.png);}
-.vox{background-image: url(heroes/vox.png);}
-*/
-
-/*
-* {
-    font-family: "Montserrat", "Roboto", sans-serif;
-}
-*/
-
-
 h1.main-title {
     font-size: 10vw;
     text-align: center;
@@ -141,8 +101,8 @@ aside {
     background-color: white;
     height: calc(100vh + 10px);
     overflow-y: scroll;
-    margin-left: 10px;
-    max-width: 450px;
+    margin-left: 5px;
+    
 }
 
 table {
@@ -185,4 +145,9 @@ body {
 
 .title {
     margin-bottom: 0px !important; /*Bad practice, meant to overwrite Bulma.css style*/
+}
+
+.menu-label {
+    margin-top: 12px;
+    padding-left: 2px;
 }
