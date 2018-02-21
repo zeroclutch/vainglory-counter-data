@@ -30,10 +30,10 @@ function loopHeroes () {
     ignIndex++;
     setTimeout(function () {
         retrieveMatchHistory(IGNs[ignIndex], undefined, filters);
+        ignIndex++;
         if(ignIndex < IGNs.length) { //Continue running until all IGNs in region are indexed
             loopHeroes();
         }
-        ignIndex++;
     }, delay);
 }
 
