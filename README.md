@@ -1,7 +1,7 @@
 # Vainglory Hero Counter Data
 
 ## What is this
-This is a webapp that uses the Vainglory API to search Vainglory matches and retrieve data about hero matchups. It looks at ranked matches from patch 2.12 (which can be changed in filters.js).
+This is a webapp that uses the Vainglory API to search Vainglory matches and retrieve data about hero matchups. It looks at 5v5 matches from patch 3.0 (which can be changed in filters.js, but will require an API key).
 
 ## Try it out
 Try it at [zeroclutch.github.io/vainglory-counter-data](https://zeroclutch.github.io/vainglory-counter-data/).
@@ -12,19 +12,19 @@ filters.apiKey = 'YourAPIKey'
 ```
 If you want to restart the search with your own filters, enter this in console:
 ```js
-filters.gameMode = "ranked"; /*try casual, ranked, casual_aral, blitz_pvp_ranked, 5v5_pvp_casual*/
-filters.patch = "2.12";
+filters.gameMode = "5v5_pvp_casual"; /*try casual, ranked, casual_aral, blitz_pvp_ranked, 5v5_pvp_casual*/
+filters.patch = "3.0";
 filters.apiKey = "YourAPIKey"; /*to get an API key, see above*/
 restartSearch();
 ```
 To analyze some data, try the following commands in console:
 ```js
-getWeakestCounter('Alpha'); //Find the weakest matchup against Alpha
+getWeakestCounter('Alpha');  //Find the weakest matchup against Alpha
 getStrongestCounter('Rona'); //Find the best counter to Rona
-getMostFrequentMatchup(); //Find the most common hero v. hero matchup by match coun
-getLeastFrequentMatchup(); //Find the least common hero v. hero matchup by match count
-getBestMatchup(); //Find the highest winrate hero v. hero matchup
-getWorstMatchup(); //Find the lowest winrate hero v. hero matchup
+getMostFrequentMatchup();    //Find the most common hero v. hero matchup by match coun
+getLeastFrequentMatchup();   //Find the least common hero v. hero matchup by match count
+getBestMatchup();            //Find the highest winrate hero v. hero matchup
+getWorstMatchup();           //Find the lowest winrate hero v. hero matchup
 ```
 Type `help()` in console for more useful commands.
 
