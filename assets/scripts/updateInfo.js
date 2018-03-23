@@ -54,7 +54,7 @@ preloadButton.addEventListener("click", function() {
     totalMatches = simplePreloadData[2];
     ignIndex = simplePreloadData[3];
     ignIndexCounter = simplePreloadData[3];
-	skillTiers = JSON.parse(simplifiedData[4]);
+	skillTiers = {};
     getHero();
     
     document.querySelector(".entry-screen").style.display = "none";
