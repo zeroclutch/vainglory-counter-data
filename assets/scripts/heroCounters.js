@@ -7,7 +7,7 @@ var IGNs = ["mrprgr", "xDragonx2375"],
         gameMode: "5v5_pvp_ranked",
         createdStart: new Date(new Date().setDate(new Date().getDate() - 27)).toISOString(),
         patch: "3.1",
-        apiKey: "aaa.bbb.ccc",
+        apiKey: "Bearer aaa.bbb.ccc",
         minSkillTier: 0, //currently horrible
         rateLimit: 10
     },
