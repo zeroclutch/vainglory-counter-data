@@ -12,8 +12,8 @@ filters.apiKey = 'YourAPIKey'
 ```
 If you want to restart the search with your own filters, enter this in console:
 ```js
-filters.gameMode = "5v5_pvp_casual"; /*try casual, ranked, casual_aral, blitz_pvp_ranked, 5v5_pvp_casual*/
-filters.patch = "3.0";
+filters.gameMode = "5v5_pvp_ranked"; /*try casual, ranked, casual_aral, blitz_pvp_ranked, 5v5_pvp_casual, 5v5_pvp_ranked*/
+filters.patch = "3.1";
 filters.apiKey = "YourAPIKey"; /*to get an API key, see above*/
 restartSearch();
 ```

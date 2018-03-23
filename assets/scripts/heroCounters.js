@@ -1,13 +1,13 @@
 //Global scope for IGNs
-var IGNs = ["mrdollywaggit", "xDragonx2375"],
+var IGNs = ["mrprgr", "xDragonx2375"],
     ignIndex = 0,
     ignIndexCounter = 0,
     output = {},
     filters = {
-        gameMode: "5v5_pvp_casual",
+        gameMode: "5v5_pvp_ranked",
         createdStart: new Date(new Date().setDate(new Date().getDate() - 27)).toISOString(),
-        patch: "3.0",
-        apiKey: "Bearer aaa.bbb.ccc",
+        patch: "3.1",
+        apiKey: "aaa.bbb.ccc",
         minSkillTier: 0, //currently horrible
         rateLimit: 10
     },
@@ -19,7 +19,7 @@ var IGNs = ["mrdollywaggit", "xDragonx2375"],
 	verbose = false;
 
 function restartSearch() {
-    IGNs = ["FlashX","mrprgr"],
+    IGNs = ["mrprgr", "xDragonx2375"],
     ignIndex = 0,
     ignIndexCounter = 0,
     output = {},
