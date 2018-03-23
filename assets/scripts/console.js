@@ -3,6 +3,7 @@ function help(){
 ****************************************\n\
 *TO BEGIN SEARCHING, enter filters.apiKey = 'Bearer YourAPIKey'. You'll need to register for an API key at developer.vainglorygame.com.\n\
 ****************************************\n\n\
+ * verbose = true [See more data in console]\n\
  * getWeakestCounter('Alpha') [Find the weakest matchup against Alpha]\n\
  * getStrongestCounter('Rona') [Find the best counter to Rona]\n\
  * getMostFrequentMatchup() [Find the most common hero v. hero matchup by match count]\n\
