@@ -32,6 +32,7 @@ saveButton.addEventListener("click", function() {
     output = simplifiedData[0];
     IGNs = simplifiedData[1];
     totalMatches = simplifiedData[2];
+	skillTiers = JSON.parse(simplifiedData[4]);
     ignIndex = 0;
     ignIndexCounter = 0;
     getHero();
@@ -53,6 +54,7 @@ preloadButton.addEventListener("click", function() {
     totalMatches = simplePreloadData[2];
     ignIndex = simplePreloadData[3];
     ignIndexCounter = simplePreloadData[3];
+	skillTiers = JSON.parse(simplifiedData[4]);
     getHero();
     
     document.querySelector(".entry-screen").style.display = "none";

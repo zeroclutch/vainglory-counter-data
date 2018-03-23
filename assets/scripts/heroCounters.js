@@ -11,8 +11,12 @@ var IGNs = ["mrdollywaggit", "xDragonx2375"],
         minSkillTier: 0, //currently horrible
         rateLimit: 10
     },
-    totalMatches = 0;
-
+    totalMatches = 0,
+	tierBList = ["0","109","218","327","436","545","654","763","872","981","1090","1200","1250","1300","1350","1400","1467","1533","1600","1667","1733","1800","1867","1933","2000","2134","2267","2400","2600","2800","3000"],
+	tierList = ["Unranked","Just Beginning Bronze","Just Beginning Silver","Just Beginning Gold","Getting There Bronze","Getting There Silver","Getting There Gold","Rock Solid Bronze","Rock Solid Silver","Rock Solid Gold","Worthy Foe Bronze","Worthy Foe Silver","Worthy Foe Gold","Got Swagger Bronze","Got Swagger Silver","Got Swagger Gold","Credible Threat Bronze","Credible Threat Silver","Credible Threat Gold","The Hotness Bronze","The Hotness Silver","The Hotness Gold","Simply Amazing Bronze","Simply Amazing Silver","Simply Amazing Gold","Pinnacle of Awesome Bronze","Pinnacle of Awesome Silver","Pinnacle of Awesome Gold","Vainglorious Bronze","Vainglorious Silver","Vainglorious Gold"],
+	skillTiers = {},
+	numberedSkillTiers = {},
+	verbose = false;
 
 function restartSearch() {
     IGNs = ["FlashX","mrprgr"],
@@ -27,7 +31,7 @@ function loopHeroes () {
     
     //Loop through heroes
     retrieveMatchHistory(IGNs[ignIndex], undefined, filters);
-    ignIndex++;
+    ignIndex = Math.floor(Math.random()*IGNs.length-1);
     setTimeout(function () {
         retrieveMatchHistory(IGNs[ignIndex], undefined, filters);
         ignIndex++;
@@ -112,7 +116,8 @@ function mapParticipantHeroes(heroData, participants) {
                 
                 //Initialize loser heroes inside winning hero
                 if (!output[winnerName][loserName]) {
-                    console.log(winnerName + " vs " + loserName + " created.")
+					if(verbose)
+                    	console.log(winnerName + " vs " + loserName + " created.");
                     output[winnerName][loserName] = {
                         matches: 0,
                         wins: 0,
@@ -174,9 +179,10 @@ function mapParticipantHeroes(heroData, participants) {
             }
         }
     }
-
-    console.log(output);
-    console.log(totalMatches + " matches scanned. " + ignIndexCounter + " igns searched. " + (IGNs.length - ignIndexCounter) + " more igns to go.");
+	if(verbose) {
+		console.log(output);
+		console.log(totalMatches + " matches scanned. " + ignIndexCounter + " igns searched. " + (IGNs.length - ignIndexCounter) + " more igns to go.");
+	}
 
     //Update values on webpage
     Vue.nextTick(function () {
@@ -189,7 +195,7 @@ function mapParticipantHeroes(heroData, participants) {
     });
 
     //Save values in local. Only store last 200 IGNs to avoid excess data
-    var saveData = JSON.stringify(output) + "===" + IGNs.slice(Math.max(IGNs.length - 200, 0)).join("==") + "===" + totalMatches + "===" + 0;
+    var saveData = JSON.stringify(output) + "===" + IGNs.slice(Math.max(IGNs.length - 200, 0)).join("==") + "===" + totalMatches + "===" + 0 + "===" + JSON.stringify(skillTiers);
     localStorage.setItem("saveFile", saveData);
 }
 
@@ -257,6 +263,18 @@ function getHeroData(data, playerName) {
             } else if (currentInc.type == "player") {
                 addIGN(currentInc);
             }
+			//Track skill tier
+			if(currentInc.type == "participant") {
+				//Create skill tier object if it does not exist yet 
+				var playerTier = tierList[currentInc.attributes.stats.skillTier];
+				if(!skillTiers[playerTier]){
+					skillTiers[playerTier] = 1;
+				} else {
+					skillTiers[playerTier]++;
+				}
+				//Set numberedSkillTiers to match
+				numberedSkillTiers[tierBList[currentInc.attributes.stats.skillTier]] = skillTiers[playerTier];
+			}
         }
     }
     mapParticipantHeroes(outputHeroData, participantList);

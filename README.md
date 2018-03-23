@@ -26,6 +26,11 @@ getLeastFrequentMatchup();   //Find the least common hero v. hero matchup by mat
 getBestMatchup();            //Find the highest winrate hero v. hero matchup
 getWorstMatchup();           //Find the lowest winrate hero v. hero matchup
 ```
+To find player skill tier data, try looking at the following variables in console:
+```js
+skillTiers         //Find relative numbers of players in a specific skill tier (numbers do not represent the actual number of players in a tier, but can be used to calculate percentage data)
+numberedSkillTiers //Find relative numbers of players at specific VST scores (VST scores are approximated to the nearest tier)
+```
 Type `help()` in console for more useful commands.
 
 If you want to get it locally, fork it or download it and add your Vainglory API key to filters.js. Then open index.html in any browser. Register for a key at [developer.vainglorygame.com](https://developer.vainglorygame.com/).
